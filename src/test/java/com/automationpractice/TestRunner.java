@@ -23,4 +23,8 @@ public class TestRunner {
    public static void tearDown() {
       ChromeBrowser.shutdown();
    }
+
+   public static void main(String[] args) {
+      setUp();
+   }
 }

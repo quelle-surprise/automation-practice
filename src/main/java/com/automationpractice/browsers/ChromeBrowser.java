@@ -20,11 +20,11 @@ public class ChromeBrowser {
    private static void setUpBrowserForOS() {
       File driver = null;
       if(isMac()) {
-         driver = setupWebDriver("drivers/mac/chromedriver");
+         driver = setupWebDriver("src/main/resources/drivers/mac/chromedriver");
       } else if(isWindows()) {
-         driver = setupWebDriver("drivers/win/chromedriver.exe");
+         driver = setupWebDriver("src/main/resources/drivers/win/chromedriver.exe");
       } else if(isLinux()) {
-         driver = setupWebDriver("drivers/linux/chromedriver");
+         driver = setupWebDriver("src/main/resources/drivers/linux/chromedriver");
       }
       System.setProperty("webdriver.chrome.driver", driver.getAbsolutePath());
    }
