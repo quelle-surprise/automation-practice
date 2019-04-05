@@ -37,6 +37,7 @@ public class ChromeBrowser {
       LOG.info("Setting up Chrome browser..");
       setUpBrowserForOS();
       WebDriver driver = new ChromeDriver();
+      driver.get("http://automationpractice.com");
       setWebDriver(driver);
    }
 

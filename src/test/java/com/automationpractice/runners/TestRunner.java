@@ -1,4 +1,4 @@
-package com.automationpractice;
+package com.automationpractice.runners;
 
 import com.automationpractice.browsers.ChromeBrowser;
 import org.junit.AfterClass;
@@ -24,7 +24,4 @@ public class TestRunner {
       ChromeBrowser.shutdown();
    }
 
-   public static void main(String[] args) {
-      setUp();
-   }
 }
