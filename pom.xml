@@ -12,7 +12,7 @@
       <junit.version>4.12</junit.version>
       <selenium.version>3.141.59</selenium.version>
       <selenide.version>4.12.3</selenide.version>
-      <spring.version>5.1.0.RELEASE</spring.version>
+      <spring.version>5.3.18</spring.version>
    </properties>
 
    <dependencies>
